@@ -62,6 +62,7 @@ Important Points About Constructors:
 
 6. Constructors can be overloaded (multiple constructors with different parameters).
 
+7. Constructors are mainly used to assign initial values to instance variables.
 
 Example:
 Car car1 = new Car();        // Calls default constructor
