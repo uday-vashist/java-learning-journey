@@ -46,3 +46,24 @@ public class Constructors {
         car2.displayDetails();
     }
 }
+
+/*
+Important Points About Constructors:
+
+1. A constructor is a special method used to initialize objects.
+
+2. The constructor name must be the same as the class name.
+
+3. Constructors do not have any return type, not even void.
+
+4. A constructor is automatically called when an object is created.
+
+5. If no constructor is defined in a class, Java provides a default constructor automatically.
+
+6. Constructors can be overloaded (multiple constructors with different parameters).
+
+
+Example:
+Car car1 = new Car();        // Calls default constructor
+Car car2 = new Car("BMW", 2023); // Calls parameterized constructor
+*/
