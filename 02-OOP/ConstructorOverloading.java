@@ -8,7 +8,6 @@ class Book {
     int price;
 
     // Constructor 1
-    // --------------------------------------------------
 
     Book() {
         title = "Unknown";
