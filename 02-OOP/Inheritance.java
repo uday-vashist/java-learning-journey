@@ -2,7 +2,6 @@
 // Topic: Understanding Inheritance in Java
 
 // Parent Class (Super Class)
-// --------------------------------------------------
 
 class Animal {
 
@@ -15,9 +14,7 @@ class Animal {
     }
 }
 
-// --------------------------------------------------
 // Child Class (Sub Class)
-// --------------------------------------------------
 
 class Dog extends Animal {
 
@@ -43,9 +40,7 @@ public class Inheritance {
 
 
 /*
---------------------------------------------------
 Important Points About Inheritance
---------------------------------------------------
 
 1. Inheritance allows one class to acquire
    properties and methods of another class.
