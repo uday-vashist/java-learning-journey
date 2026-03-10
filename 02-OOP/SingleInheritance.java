@@ -15,9 +15,7 @@ class Vehicle {
 }
 
 
-// --------------------------------------------------
 // Child Class
-// --------------------------------------------------
 
 class Car extends Vehicle {
 
@@ -27,9 +25,7 @@ class Car extends Vehicle {
 }
 
 
-// --------------------------------------------------
 // Main Class
-// --------------------------------------------------
 
 public class SingleInheritance {
 
@@ -48,9 +44,7 @@ public class SingleInheritance {
 
 
 /*
---------------------------------------------------
 Important Points About Single Inheritance
---------------------------------------------------
 
 1. Single inheritance means one child class
    inherits from one parent class.
