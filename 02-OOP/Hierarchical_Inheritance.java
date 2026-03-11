@@ -73,7 +73,7 @@ Example:
    Circle   Rectangle
 
 2. All child classes share the properties
-   of the same parent class.
+   from the same parent class.
 
 3. It promotes code reuse while allowing
    specialized behavior in each child class.
