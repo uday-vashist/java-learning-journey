@@ -3,7 +3,6 @@
 
 
 // Parent Class
-// --------------------------------------------------
 
 class Shape {
 
@@ -13,9 +12,7 @@ class Shape {
 }
 
 
-// --------------------------------------------------
 // Child Class 1
-// --------------------------------------------------
 
 class Circle extends Shape {
 
@@ -25,9 +22,7 @@ class Circle extends Shape {
 }
 
 
-// --------------------------------------------------
 // Child Class 2
-// --------------------------------------------------
 
 class Rectangle extends Shape {
 
@@ -37,9 +32,7 @@ class Rectangle extends Shape {
 }
 
 
-// --------------------------------------------------
 // Main Class
-// --------------------------------------------------
 
 public class HierarchicalInheritance {
 
@@ -59,9 +52,8 @@ public class HierarchicalInheritance {
 
 
 /*
---------------------------------------------------
+
 Important Points About Hierarchical Inheritance
---------------------------------------------------
 
 1. Hierarchical inheritance means multiple child
    classes inherit from a single parent class.
