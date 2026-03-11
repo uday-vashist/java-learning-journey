@@ -3,7 +3,6 @@
 
 
 // Grandparent Class
-// --------------------------------------------------
 
 class Animal {
 
@@ -13,9 +12,7 @@ class Animal {
 }
 
 
-// --------------------------------------------------
 // Parent Class
-// --------------------------------------------------
 
 class Dog extends Animal {
 
@@ -25,9 +22,7 @@ class Dog extends Animal {
 }
 
 
-// --------------------------------------------------
 // Child Class
-// --------------------------------------------------
 
 class Puppy extends Dog {
 
@@ -37,9 +32,7 @@ class Puppy extends Dog {
 }
 
 
-// --------------------------------------------------
 // Main Class
-// --------------------------------------------------
 
 public class MultilevelInheritance {
 
@@ -55,9 +48,7 @@ public class MultilevelInheritance {
 
 
 /*
---------------------------------------------------
 Important Points About Multilevel Inheritance
---------------------------------------------------
 
 1. Multilevel inheritance means a class inherits
    from a class which is already inheriting another class.
