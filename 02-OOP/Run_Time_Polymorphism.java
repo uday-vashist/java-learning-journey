@@ -1,5 +1,5 @@
 // File: Polymorphism.java
-// Topic: Understanding Polymorphism in Java
+// Topic: Understanding RunTime Polymorphism in Java(method overloading)
 
 
 // Parent Class
@@ -13,9 +13,7 @@ class Animal {
 }
 
 
-// --------------------------------------------------
 // Child Class 1
-// --------------------------------------------------
 
 class Dog extends Animal {
 
@@ -26,9 +24,7 @@ class Dog extends Animal {
 }
 
 
-// --------------------------------------------------
 // Child Class 2
-// --------------------------------------------------
 
 class Cat extends Animal {
 
@@ -39,9 +35,7 @@ class Cat extends Animal {
 }
 
 
-// --------------------------------------------------
 // Main Class
-// --------------------------------------------------
 
 public class Polymorphism {
 
@@ -58,9 +52,7 @@ public class Polymorphism {
 
 
 /*
---------------------------------------------------
 Important Points About Polymorphism
---------------------------------------------------
 
 1. Polymorphism means "one interface, many forms".
 
