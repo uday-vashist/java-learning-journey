@@ -36,7 +36,6 @@ class Parent {
 
 
 // Child Class
-// --------------------------------------------------
 
 class Child extends Parent {
 
@@ -55,9 +54,7 @@ public class KeywordsDemo {
 
     public static void main(String[] args) {
 
-        // --------------------------------------------------
-        // Final Variable
-        // --------------------------------------------------
+        // final Variable
 
         final int MAX_VALUE = 100;
 
@@ -67,18 +64,14 @@ public class KeywordsDemo {
 
 
 
-        // --------------------------------------------------
         // Using Final Method
-        // --------------------------------------------------
 
         Child c = new Child();
         c.display();
 
 
 
-        // --------------------------------------------------
         // Using Final Class
-        // --------------------------------------------------
 
         FinalClass obj = new FinalClass();
         obj.show();
@@ -87,9 +80,7 @@ public class KeywordsDemo {
 
 
 /*
---------------------------------------------------
 Important Points About 'final' Keyword
---------------------------------------------------
 
 1. The 'final' keyword is used to restrict modification.
 
