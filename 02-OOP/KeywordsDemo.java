@@ -186,3 +186,47 @@ StaticExample s2 = new StaticExample();
 StaticExample.displayCount();
 
 */
+
+/*
+--------------------------------------------------
+SUPER KEYWORD - Important Points
+--------------------------------------------------
+
+1. 'super' refers to the immediate parent class object.
+
+2. It is used to:
+   - Call parent class constructor → super()
+   - Access parent class variables → super.variable
+   - Call parent class methods → super.method()
+
+3. Must be the first statement in constructor if used.
+
+--------------------------------------------------
+STATIC KEYWORD - Important Points
+--------------------------------------------------
+
+1. 'static' means shared among all objects.
+
+2. Static variables:
+   - One copy for entire class
+
+3. Static methods:
+   - Can be called without object
+   - Cannot access non-static members directly
+
+Example:
+ClassName.methodName();
+
+--------------------------------------------------
+CONST IN JAVA
+--------------------------------------------------
+
+1. Java does NOT have 'const' keyword like C/C++.
+
+2. Instead, Java uses 'final' keyword for constants.
+
+Example:
+final int MAX = 100;
+
+3. 'const' is reserved but not used in Java.
+*/
