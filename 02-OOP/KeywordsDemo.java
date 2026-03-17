@@ -104,3 +104,85 @@ final int x = 10;
 Example of final class in Java:
 String class is final.
 */
+
+// --------------------------------------------------
+// SUPER KEYWORD EXAMPLE
+// --------------------------------------------------
+
+class Animal {
+
+    String name = "Animal";
+
+    Animal() {
+        System.out.println("Animal constructor called");
+    }
+
+    void sound() {
+        System.out.println("Animal makes sound");
+    }
+}
+
+
+class Dog extends Animal {
+
+    String name = "Dog";
+
+    Dog() {
+        super();  // calls parent constructor
+        System.out.println("Dog constructor called");
+    }
+
+    void showNames() {
+
+        System.out.println("Child name: " + name);
+        System.out.println("Parent name using super: " + super.name);
+    }
+
+    void sound() {
+        super.sound(); // calling parent method
+        System.out.println("Dog barks");
+    }
+}
+
+
+// --------------------------------------------------
+// STATIC KEYWORD EXAMPLE
+// --------------------------------------------------
+
+class StaticExample {
+
+    static int count = 0;  // shared among all objects
+
+    StaticExample() {
+        count++;
+    }
+
+    static void displayCount() {
+        System.out.println("Total objects created: " + count);
+    }
+}
+
+
+// --------------------------------------------------
+// MAIN METHOD ADDITIONS
+// --------------------------------------------------
+
+// Add this inside your existing main()
+
+/*
+
+// -------- SUPER KEYWORD --------
+
+Dog d = new Dog();
+d.showNames();
+d.sound();
+
+
+// -------- STATIC KEYWORD --------
+
+StaticExample s1 = new StaticExample();
+StaticExample s2 = new StaticExample();
+
+StaticExample.displayCount();
+
+*/
