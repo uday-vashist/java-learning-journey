@@ -31,9 +31,7 @@ Important Points About Importing Packages
 
 5. Packages help in modular programming.
 
---------------------------------------------------
 Compilation & Execution (Important)
---------------------------------------------------
 
 Step 1:
 javac -d . Message.java
