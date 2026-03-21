@@ -14,9 +14,7 @@ public class PackageImportExample {
 
 
 /*
---------------------------------------------------
 Important Points About Importing Packages
---------------------------------------------------
 
 1. 'import' keyword is used to access classes
    from another package.
