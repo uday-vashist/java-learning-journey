@@ -7,16 +7,12 @@ public class ArrayListExample {
 
     public static void main(String[] args) {
 
-        // --------------------------------------------------
         // Creating ArrayList
-        // --------------------------------------------------
 
         ArrayList<String> names = new ArrayList<>();
 
 
-        // --------------------------------------------------
         // Adding Elements
-        // --------------------------------------------------
 
         names.add("Uday");
         names.add("Rahul");
@@ -25,39 +21,29 @@ public class ArrayListExample {
         System.out.println("ArrayList: " + names);
 
 
-        // --------------------------------------------------
         // Accessing Elements
-        // --------------------------------------------------
 
         System.out.println("First Element: " + names.get(0));
 
 
-        // --------------------------------------------------
         // Updating Element
-        // --------------------------------------------------
 
         names.set(1, "Rohit");
         System.out.println("After Update: " + names);
 
 
-        // --------------------------------------------------
         // Removing Element
-        // --------------------------------------------------
 
         names.remove("Amit");
         System.out.println("After Removal: " + names);
 
 
-        // --------------------------------------------------
         // Size of ArrayList
-        // --------------------------------------------------
 
         System.out.println("Size: " + names.size());
 
 
-        // --------------------------------------------------
         // Looping through ArrayList
-        // --------------------------------------------------
 
         System.out.println("\nUsing for-each loop:");
         for (String name : names) {
@@ -68,9 +54,7 @@ public class ArrayListExample {
 
 
 /*
---------------------------------------------------
 Important Points About ArrayList
---------------------------------------------------
 
 1. ArrayList is a dynamic array (resizable).
 
