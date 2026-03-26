@@ -61,9 +61,7 @@ public class HashSetExample {
 
 
 /*
---------------------------------------------------
 Important Points About HashSet
---------------------------------------------------
 
 1. HashSet is part of java.util package.
 
@@ -77,9 +75,7 @@ Important Points About HashSet
    - You need unique elements
    - Order does not matter
 
---------------------------------------------------
 Difference from ArrayList
---------------------------------------------------
 
 ArrayList:
 ✔ Allows duplicates
